@@ -2670,3 +2670,81 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 10:18:06.726
 !MESSAGE executing callback sts4.classpath.yjScacLb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:19:58.578
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:19:58.584
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:19:58.585
+!MESSAGE buffering callback sts4.classpath.yjScacLb Case false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:19:58.587
+!MESSAGE executing callback sts4.classpath.yjScacLb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:19:58.642
+!MESSAGE executing callback sts4.classpath.yjScacLb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:24.598
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:24.602
+!MESSAGE buffering callback sts4.classpath.yjScacLb Tabuada true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:24.603
+!MESSAGE executing callback sts4.classpath.yjScacLb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:24.611
+!MESSAGE executing callback sts4.classpath.yjScacLb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:28.874
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:28.875
+!MESSAGE buffering callback sts4.classpath.yjScacLb LacoMatriz true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:28.876
+!MESSAGE executing callback sts4.classpath.yjScacLb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:28.884
+!MESSAGE executing callback sts4.classpath.yjScacLb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:39.679
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:39.681
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:39.681
+!MESSAGE buffering callback sts4.classpath.yjScacLb Arquivos false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:39.682
+!MESSAGE executing callback sts4.classpath.yjScacLb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:30:39.688
+!MESSAGE executing callback sts4.classpath.yjScacLb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:47:05.267
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:47:05.268
+!MESSAGE buffering callback sts4.classpath.yjScacLb Case true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:47:05.269
+!MESSAGE executing callback sts4.classpath.yjScacLb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:47:05.274
+!MESSAGE executing callback sts4.classpath.yjScacLb SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-03-16 11:47:06.829
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
