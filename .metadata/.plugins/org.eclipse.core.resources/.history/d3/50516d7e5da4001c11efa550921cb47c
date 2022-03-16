@@ -1,0 +1,19 @@
+
+public class Mensagem {
+
+	public static void main(String[] args) {
+
+
+	
+		String nome = "Carlos Silva";
+		Integer idade = 34;
+		char genero = 'M';
+		
+		System.out.printf("%s %d %s", nome,idade,genero);
+		
+		
+		
+	
+	}
+
+}

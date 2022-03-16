@@ -1,0 +1,10 @@
+
+public class FormataValor {
+
+	public static void main(String[] args) {
+
+		Double dval = 20.2561;
+		System.out.printf("Valor da Variavel: %.2f ", dval);
+	}
+
+}

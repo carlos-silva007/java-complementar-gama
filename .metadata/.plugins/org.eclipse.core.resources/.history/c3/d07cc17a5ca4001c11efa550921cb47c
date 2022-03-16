@@ -1,0 +1,19 @@
+
+public class Mensagem {
+
+	public static void main(String[] args) {
+
+		System.out.println("Olaaa Pessoallll kkk");
+
+	
+		String nome = "Tarciano";
+		Integer idade = 39;
+		
+		System.out.printf(nome, idade);
+		
+		
+		
+	
+	}
+
+}

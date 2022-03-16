@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Mensagem {
+
+	public static void main(String[] args) {
+
+
+	
+		Scanner entrada = new Scanner(System.in);
+		
+		String nome = entrada.next();
+		Integer idade = entrada.nextInt();
+		String sexo = entrada.nextLine();
+		
+	
+	}
+
+}

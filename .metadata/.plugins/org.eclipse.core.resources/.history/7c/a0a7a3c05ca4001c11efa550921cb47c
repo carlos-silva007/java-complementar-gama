@@ -1,0 +1,18 @@
+
+public class Mensagem {
+
+	public static void main(String[] args) {
+
+
+	
+		String nome = "Tarciano";
+		Integer idade = 39;
+		
+		System.out.printf(nome,idade);
+		
+		
+		
+	
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class Mensagem {
+
+	public static void main(String[] args) {
+
+		System.out.println("Olaaa Pessoallll kkk");
+
+	
+		String nome = "Tarciano";
+		
+		System.out.println(nome);
+		
+		
+		
+	
+	}
+
+}
