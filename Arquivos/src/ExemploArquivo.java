@@ -9,7 +9,7 @@ public class ExemploArquivo {
 		String[] nomes = { "Marcos", "Pedro", "Regina", "Carlos", "Ronaldo" };
 
 		FileWriter arquivo = new FileWriter(
-				"C:\\Users\\Carlos Silva\\Desktop\\Material Apoio - Estudos\\funcionarios.txt"); // criar arquivo
+				"c:\\Users\\Developer Carlos\\Desktop\\Material Apoio - Estudos\\funcionarios.txt"); // criar arquivo
 		PrintWriter gravarArquivo = new PrintWriter(arquivo); // gravar conteudo dentor do arquivo
 
 		gravarArquivo.printf("Registros Funcionarios");
